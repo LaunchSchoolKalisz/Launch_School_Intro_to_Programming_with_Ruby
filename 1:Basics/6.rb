@@ -6,7 +6,8 @@ the result to the screen.
 
 squares1 = 3.3 * 3.3
 squares2 = 393.393 * 393.393
-squares3 = 3393.3393 * 3393.3393
+#Another solution: ** signifies exponent, or raise to the power of
+squares3 = 3393.3393 ** 2
 
 puts squares1
 puts squares2
