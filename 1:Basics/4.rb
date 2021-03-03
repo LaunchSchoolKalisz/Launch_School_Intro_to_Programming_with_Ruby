@@ -25,4 +25,9 @@ same thing as exercise 3.
 =end
 movie_dates = [  1991, 2004, 2004,  2003, 2006, 1990  ]
 
-puts movie_dates
+puts movie_dates[0]
+puts movie_dates[1]
+puts movie_dates[2]
+puts movie_dates[3]
+puts movie_dates[4]
+puts movie_dates[5]
