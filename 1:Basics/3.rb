@@ -19,16 +19,16 @@ puts movie_list[:"The Holiday"]
 puts movie_list[:"Home Alone"]
 
 #New hash syntax (Ruby 1.9 and up)
-movie_list = {  "Terminator 2": 1991, 
+movies = {  "Terminator 2": 1991, 
                 "Mean Girls": 2004, 
                 "The Notebook": 2004, 
                 "Love Actually": 2003, 
                 "The Holiday": 2006, 
                 "Home Alone": 1990  }
 
-puts movie_list[:"Terminator 2"] 
-puts movie_list[:"Mean Girls"]
-puts movie_list[:"The Notebook"]
-puts movie_list[:"Love Actually"]
-puts movie_list[:"The Holiday"]
-puts movie_list[:"Home Alone"]
+puts movies[:"Terminator 2"] 
+puts movies[:"Mean Girls"]
+puts movies[:"The Notebook"]
+puts movies[:"Love Actually"]
+puts movies[:"The Holiday"]
+puts movies[:"Home Alone"]
