@@ -4,8 +4,8 @@ This program should contain a method called greeting
 that takes a name as its parameter and returns a string.
 =end
 
-def greeting(name = "Martha")
-  puts "Welcome " + name + "!"
+def greeting(name)
+  "Welcome " + name + "!"
 end
 
-greeting()
+puts greeting("Martha")
