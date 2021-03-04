@@ -16,7 +16,7 @@ end
 a = 5
 some_method(a)
 puts a
-=end
+
 
 a = [1,2,3]
 
@@ -29,6 +29,7 @@ p "Before mutate method: #{a}"
 mutate(a)
 p "After mutate method: #{a}"
 
+
 #Example that does not mutate the caller
 
 def no_mutate(array)
@@ -38,3 +39,16 @@ end
 puts "Before no_mutate method: #{a}"
 no_mutate(a)
 puts "After no_mutate method: #{a}"
+=end
+
+#practice with "Return"
+
+a = [1, 2, 3]
+
+def mutate(array)
+  array.pop
+end
+
+p "Before mutate method: #{a}" #Print "a" as initially defined
+p mutate(a)                    #Print the value returned by the mutate method
+p "After mutate method: #{a}"  #Print "a" after the mutate method
