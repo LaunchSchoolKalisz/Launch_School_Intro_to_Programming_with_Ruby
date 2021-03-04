@@ -9,3 +9,8 @@ puts 'Type in your name:'
 name = gets.chomp
 10.times {puts name}
 puts "Hi there, " + name + "!"
+
+#LS solution
+10.times do
+  puts name
+end
