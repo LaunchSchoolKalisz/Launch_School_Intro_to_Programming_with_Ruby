@@ -14,3 +14,15 @@ age_plus_thirty = age.to_i + 30
 puts "In 30 years you will be:\n" + "#{age_plus_thirty}"
 age_plus_fourty = age.to_i + 40
 puts "In 40 years you will be:\n" + "#{age_plus_fourty}"
+
+#LS solution (more concise):
+puts "How old are you?"
+age2 = gets.chomp.to_i
+puts "In 10 years you will be:"
+puts age + 10
+puts "In 20 years you will be:"
+puts age + 20
+puts "In 30 years you will be:"
+puts age + 30
+puts "In 40 years you will be:"
+puts age + 40
