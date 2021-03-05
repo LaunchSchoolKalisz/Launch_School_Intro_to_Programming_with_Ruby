@@ -8,4 +8,4 @@ def scream(words)
   puts words
 end
 
-scream("Yippeee") #Prints Yippeee!!!!
+scream("Yippeee") #Prints Yippeee!!!!, returns nil 
