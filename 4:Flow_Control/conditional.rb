@@ -1,3 +1,4 @@
+=begin
 puts "Put in a number"
 a = gets.chomp.to_i
 
@@ -36,3 +37,11 @@ if x == 3 then puts "x is 3" end
 
 #unless: opposite of if
 puts "x is NOT 3" unless x == 3
+=end
+
+a = ''
+if a
+  puts "how can this be true?"
+else
+  puts "it is not true"
+end
