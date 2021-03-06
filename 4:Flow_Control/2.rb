@@ -14,3 +14,4 @@ def all_caps(word)
 end
 
 puts all_caps("hello world")
+puts all_caps("hello")
