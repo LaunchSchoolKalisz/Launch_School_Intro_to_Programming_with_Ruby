@@ -12,7 +12,10 @@ if number > 100
   puts "The number you entered is larger than 100. Please try again."
 elsif number >= 0 && number <= 50
   puts "The number you entered is between 0 and 50"
-else puts "The number you entered is between 51 and 100"
+elsif number >50 && number <=100 
+  puts "The number you entered is between 51 and 100"
+else 
+  puts "The number you entered is outside of our scope, perhaps negative. Please try again"
 end
 
 
