@@ -12,9 +12,9 @@ TypeError: no implicit conversion of String into Integer
   
   What is the problem and how can it be fixed?
   
-  The problem is that we need to convert the string on line 2 of the code in the [] into an integer
+  The problem is that we need to access the name by its index, not its string name
 =end
 
 #Fix:
 names = ['bob', 'joe', 'susan', 'margaret']
-names['margaret'.to_i] = 'jody'
+names[3] = 'jody'
