@@ -7,4 +7,4 @@ access_name = person.fetch(:name)
 puts access_name
 
 #LS solution
-person[:name]
+person[:name] #Element reference
