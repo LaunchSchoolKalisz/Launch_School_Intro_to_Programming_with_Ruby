@@ -21,7 +21,17 @@ hash2 = {b: 2,  c: 3, d: 4, e: 5}
 
 merge = hash1.merge(hash2)
 puts merge
-puts "Check hash 1: #{hash1}, hash 2: #{hash2}" # Maintain original values
+puts "Check hash 1: #{hash1}, hash 2: #{hash2}" # Maintain original values, returns a new hash, but not distructive
 merge_plus = hash1.merge!(hash2)
 puts merge_plus
-puts "Check hash 1: #{hash1}, hash 2: #{hash2}" # Hash1 has been changed! Hash2 retains its original values!
+puts "Check hash 1: #{hash1}, hash 2: #{hash2}" # Hash1 has been changed! Hash2 retains its original values! Distructive!
+
+# LS Solution
+cat = {name: "whiskers"}
+weight = {weight: "10 lbs"}
+puts cat.merge(weight)
+puts cat                     # => {:name=>"whiskers"}
+puts weight                  # => {:weight=>"10 lbs"}
+puts cat.merge!(weight)
+puts cat                     # => {:name=>"whiskers", :weight=>"10 lbs"}
+puts weight                  # => {:weight=>"10 lbs"}
