@@ -12,3 +12,10 @@ p person.value?('Martha')
 
 p person.has_value?('Bob')
 p person.has_value?('Martha')
+
+#LS solition
+if person.has_value?("Martha")
+  puts "Has it!"
+else
+  puts "Nope!"
+end
