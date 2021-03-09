@@ -8,3 +8,7 @@ arr.each do |number|
     puts number
   end
 end
+
+#LS additional solution, one line
+
+arr.each { |number| puts number if number > 5 }
