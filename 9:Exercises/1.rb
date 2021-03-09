@@ -2,3 +2,8 @@
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 numbers.each { |number| puts number}
+
+#Another solution by LS (multiline)
+numbers.each do |number|
+  puts number
+end
