@@ -11,5 +11,6 @@ Look into using Array's map and flatten methods, as well as String's split metho
 =end
 
 
-split_a = a.map { |word| word.split} # Map returns each element's value, need map to make the changes distructive (vs each)
-p split_a.flatten
+split_a = a.map { |word| word.split}  # Map returns each element's value, need map to make the changes distructive (vs each)
+p split_a.flatten                     # without argument, split splits on the white space
+                                      #flatten makes a 2D array 1D
