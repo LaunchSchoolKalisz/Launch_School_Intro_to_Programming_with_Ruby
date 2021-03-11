@@ -10,3 +10,10 @@ p a #distructive!
 a = %w(a b c d e)
 a.insert(-3, 5, 6, 7)
 p a
+
+=begin
+Negative indices count backwards from the end of the array, 
+where -1 is the last element. If a negative index is used, 
+the given values will be inserted after that element, so using an 
+index of -1 will insert the values at the end of the array.
+=end
