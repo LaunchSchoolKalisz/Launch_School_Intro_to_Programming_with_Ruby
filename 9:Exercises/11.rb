@@ -14,7 +14,7 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 #    "Joe Smith"=>{:email=>"joe@email.com", :address=>"123 Main st.", :phone=>"555-123-4567"},
 #    "Sally Johnson"=>{:email=>"sally@email.com", :address=>"404 Not Found Dr.",  :phone=>"123-234-3454"}
 
-contacts["Joe Smith"][:email] = contact_data[0][0] #pass element assignment to Joe Smith, with the contact dataa by referencing the array
+contacts["Joe Smith"][:email] = contact_data[0][0] #pass element assignment to Joe Smith, with the contact data by referencing the array
 contacts["Joe Smith"][:address] = contact_data[0][1]
 contacts["Joe Smith"][:phone] = contact_data[0][2]
 contacts["Sally Johnson"][:email] = contact_data[1][0]
