@@ -6,5 +6,5 @@ though. Modify the code so the loop stops after the first iteration.
 
 loop do
   puts 'Just keep printing...'
-  break
+  break  #block is exited immediately, if there were code after this it would not be executed
 end
