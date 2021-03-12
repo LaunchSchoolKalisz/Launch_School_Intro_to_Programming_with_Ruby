@@ -13,3 +13,16 @@ loop do
 end
 
 puts 'This is outside all loops'
+
+=begin
+A note from LS:
+The code in this exercise is considered bad practice. 
+We use it to illustrate how to break out of a nested loop, 
+not to encourage the use of loops that only perform one iteration. 
+We can easily rewrite this code without using any loops, but then the
+problem makes no sense:
+
+puts 'This is the outer loop.'
+puts 'This is the inner loop.'
+puts 'This is outside all loops.'
+-end
