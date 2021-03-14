@@ -9,3 +9,13 @@ loop do
     break
   end
 end
+
+# LS Solution... I changed the value for iteration and looped down to 0
+# LS kept iteration = 1 and looped up to 5
+iteration = 1
+
+loop do
+  puts "Number of iterations = #{iteration}"
+  iteration += 1 # shorthand for iteration = iteration +1
+  break if iteration > 5
+end
