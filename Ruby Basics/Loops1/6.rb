@@ -9,3 +9,14 @@ while numbers.length < 100 #check how long numbers array is
 end
 
 puts numbers.sample(5)     #Provides 5 random numbers from our array
+
+
+# LS solution
+
+numbers = []
+
+while numbers.size <5     #tell while to stop iterating after 5 numbers have been added to the array
+  numbers << rand(100)    # #rand returns a random number between 0 and one less than the number provided aaand << pushes it to the array
+end
+
+puts numbers
