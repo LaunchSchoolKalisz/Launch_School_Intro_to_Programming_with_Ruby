@@ -1,13 +1,12 @@
-# Modify the code below so that the user's input gets added to the numbers array. Stop the loop when the array contains 5 numbers.
+# Given the code below, use a while loop to print "Hello!" twice.
 
-numbers = []
-
-loop do 
-  puts 'Enter any number:'
-  input = gets.chomp.to_i
-  
-  numbers << input
-  
-  break if numbers.size == 5
+def greeting
+  puts 'Hello!'
 end
-puts numbers
+
+number_of_greetings = 2
+
+while number_of_greetings > 0
+  greeting
+  number_of_greetings -= 1
+end
