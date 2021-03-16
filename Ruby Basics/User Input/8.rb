@@ -33,10 +33,10 @@ loop do
   
   if denominator == '0'
     puts "Invalid input. A denominator of 0 is not allowed "
+  else
+    break if valid_number?(denominator)
+    puts "Invalid input. Only integers are allowed"
   end
-  break if valid_number?(denominator)
-
-  puts "Invalid input. Only integers are allowed"
 end
 
 puts "#{numerator} / #{denominator} is #{numerator.to_i / denominator.to_i}"
