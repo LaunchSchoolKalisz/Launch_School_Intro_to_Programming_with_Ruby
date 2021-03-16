@@ -3,7 +3,7 @@
 number = 0
 
 until number == 10
-  number += 1.next
+  number += 1.next #Using next on an integer returns the Integer equal to int + 1.
   puts number
 end
 
@@ -24,6 +24,7 @@ until number == 10
   next if number % 2 != 0
   puts number
 end
+
 =begin
 next needs to be placed after the incremental increase of 1, and before puts on line 6, 
 in to test each iterative number before it is printed so that printing can be skipped in 
