@@ -63,7 +63,7 @@ loop do
   if denominator == '0'
     puts '>> Invalid input. A denominator of 0 is not allowed.'
   else
-    break if valid_number?(denominator)
+    break if valid_number?(denominator)             #because this is in else, it will only evaluate if we first pass the if statement
     puts '>> Invalid input. Only integers are allowed.'
   end
 end
