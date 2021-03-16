@@ -15,3 +15,15 @@ loop do
   end
 end
 
+# LS solution
+loop do
+  puts 'What does 2 + 2 equal?'
+  answer = gets.chomp.to_i # Store user input so we can use it later on. gets always returns a string, so need to turn back into integer
+
+  if answer == 4
+    puts "That's correct!"
+    break
+  end
+
+  puts 'Wrong answer. Try again!'
+end
