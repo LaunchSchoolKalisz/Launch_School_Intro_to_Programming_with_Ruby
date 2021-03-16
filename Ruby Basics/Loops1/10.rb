@@ -2,7 +2,7 @@
 friends = ['Sarah', 'John', 'Hannah', 'Dave']
 
 for name in friends
-  puts "Hello, #{name}!"
+  puts "Hello, #{name}!" #interpolation
 end
 
 # In a for loop it's typical to use the standard format: for friend in friends, for cat in cats, etc. 
@@ -10,5 +10,5 @@ end
 #LS solution
 
 for friend in friends
-  puts "Hello, #{friend}"
+  puts "Hello, " + friend +"!" #concatination
 end
