@@ -19,3 +19,14 @@ while password == 'SecreT'
   break
 end
 
+#LS solution
+PASSWORD = 'SecreT' #constant
+
+loop do
+  puts '>> Please enter your password:'
+  password_try = gets.chomp
+  break if password_try == PASSWORD
+  puts ">> Invalid password!"
+end
+
+puts "Welcome!"
