@@ -3,6 +3,14 @@
 names = ['Sally', 'Joe', 'Lisa', 'Henry']
 
 loop do
-  puts names.pop
+  puts names.pop     #removes last element and returns it
   break if names.size == 0
+end
+
+#LS solution
+names = ['Sally', 'Joe', 'Lisa', 'Henry']
+
+loop do
+  puts names.shift      #removes first element and returns it
+  break if names.empty?
 end
