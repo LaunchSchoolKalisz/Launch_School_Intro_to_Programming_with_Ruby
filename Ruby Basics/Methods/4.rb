@@ -9,7 +9,7 @@ def world
 end
 
 def greet
-  hello + " " + world
+  hello + " " + world #could also use string interpolation
 end
 
 puts greet
