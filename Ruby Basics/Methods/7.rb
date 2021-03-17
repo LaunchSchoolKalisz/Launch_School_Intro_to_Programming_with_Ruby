@@ -34,3 +34,5 @@ end
 
 puts "The dog's name is #{dog('Spot')}."
 puts "The cat's name is #{cat('Ginger')}."
+
+#Need to keep track of the number of arguments a method accepts and how many it's given
