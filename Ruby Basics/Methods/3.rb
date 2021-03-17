@@ -6,7 +6,10 @@ def hello
 end
 
 def world
-  "world"
+  "world" #returns the string
 end
 
-puts hello + " " + world
+puts hello + " " + world 
+
+#LS solution
+puts "#{hello} #{world}"
