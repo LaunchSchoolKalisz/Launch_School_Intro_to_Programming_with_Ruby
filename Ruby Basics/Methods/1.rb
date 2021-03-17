@@ -5,3 +5,9 @@ def print_me
 end
 
 print_me
+
+
+=begin
+#puts inside a method, you're outputting one thing and returning another. #puts outputs whatever it's given and returns nil. 
+In this case, we're printing the value inside the method, which means the method's return value is nil
+=end
