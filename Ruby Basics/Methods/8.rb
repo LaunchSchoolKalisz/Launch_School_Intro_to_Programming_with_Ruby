@@ -4,7 +4,7 @@ default to the string "Bob" if no argument is given. The method's return value s
 be the value of the argument.
 =end
 
-def assign_name(name = 'Bob')
+def assign_name(name = 'Bob') #Providing a default parameter!! it accepts one argument, but doesn't break if that argument isn't given.
   name
 end
 
