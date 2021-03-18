@@ -2,10 +2,9 @@
 
 def meal
   'Dinner'
-  puts 'Dinner'
+  return 'Breakfast'
 end
 
 p meal
 
-#Returns nil, as in the last line of the method invokes puts
-# Prints Dinner /n nil
+#Returns Breakfast, last line && return

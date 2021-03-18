@@ -1,11 +1,11 @@
 # What will the following code print? Why? Don't run it until you've attempted to answer.
 
 def meal
-  return 'Breakfast'
   'Dinner'
   puts 'Dinner'
 end
 
-puts meal
+p meal
 
-#Prints 'Breakfast' Return is invoked so the method returns breakfast and exits the method
+#Returns nil, as in the last line of the method invokes puts
+# Prints Dinner /n nil
