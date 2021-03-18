@@ -6,7 +6,7 @@ def count_sheep
   end
 end
 
-puts count_sheep
+puts count_sheep #outputs the return value
 
 #Prints sheep sheep sheep sheep /n nil
 #5.times is distructive, puts returns nil
