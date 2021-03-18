@@ -1,11 +1,13 @@
 # What will the following code print? Why? Don't run it until you've attempted to answer.
 
-def meal
-  return 'Breakfast'
-  'Dinner'
-  puts 'Dinner'
+def tricky_number
+  if true
+    number = 1
+  else
+    2
+  end
 end
 
-puts meal
+puts tricky_number
 
-#Prints 'Breakfast' Return is invoked so the method returns breakfast and exits the method
+# Prints 2 because it isthe last line of the method
