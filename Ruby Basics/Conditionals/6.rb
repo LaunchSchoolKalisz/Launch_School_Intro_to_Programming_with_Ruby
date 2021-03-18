@@ -12,3 +12,15 @@ elsif stoplight == 'yellow'
 else 
   puts "Stop!"
 end
+
+# LS Solution
+case stoplight
+when 'green'
+  puts 'Go!'
+when 'yellow'
+  puts 'Slow down!'
+else
+  puts 'Stop!'
+end
+
+#When is reserved for "case statements"
