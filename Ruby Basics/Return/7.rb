@@ -1,7 +1,7 @@
 # What will the following code print? Why? Don't run it until you've attempted to answer.
 
 def count_sheep
-  5.times do |sheep|
+  5.times do |sheep| #do...end is a block to times, so our last line for determining return is times!
     puts sheep
   end
 end
