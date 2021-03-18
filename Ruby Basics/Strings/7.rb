@@ -3,3 +3,9 @@
 greeting = 'Hello!'
 greeting.replace "Goodbye!"
 puts greeting
+
+# LS Solution
+greeting = 'Hello!'
+
+greeting.gsub!('Hello!', 'Goodbye!')
+puts greeting
