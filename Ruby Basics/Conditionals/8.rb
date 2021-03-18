@@ -6,11 +6,32 @@ print that variable.
 
 status = ['awake', 'tired'].sample
 
+#if status == 'awake'
+#  puts "Be productive!"
+#else 
+#  puts "Go to sleep!"
+#end
+
+#return_message = status
+#puts return_message
+
+#LS solution
+
+alert = if status == 'awake'
+          'Be productive!'
+        else
+          'Go to sleep!'
+        end
+
+puts alert
+
+#A longer solution
+puts status #value of status
+
 if status == 'awake'
-  puts "Be productive!"
-else 
-  puts "Go to sleep!"
+   alert = 'Be productive!'
+else
+   alert ='Go to sleep!'
 end
 
-return_message = status
-puts return_message
+puts alert #value of return
