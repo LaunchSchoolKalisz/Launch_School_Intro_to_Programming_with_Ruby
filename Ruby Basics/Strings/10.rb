@@ -6,3 +6,13 @@ colors = 'blue pink yellow orange'
 
 p colors.include? "yellow"
 p colors.include? "purple"
+
+#LS solution
+
+colors = 'blue pink yellow orange'
+
+puts colors.include?('yellow') 
+puts colors.include?('purple')
+
+#include is case sensitive!! if include('ink') would return true... because ink is in pink! 
+# watch for limitations...
