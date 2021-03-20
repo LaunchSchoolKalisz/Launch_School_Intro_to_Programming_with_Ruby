@@ -12,3 +12,6 @@ half_numbers = numbers.map do |rating, number|
                 end
 
 p half_numbers
+
+# Enumerable#map can accept two block parameters instead of one, to account for both the key and the value. 
+#You might expect Enumerable#map to return a Hash when invoked on a Hash, but it actually returns an Array
