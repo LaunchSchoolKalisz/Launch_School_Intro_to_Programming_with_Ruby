@@ -8,3 +8,7 @@ divisible_by_three =  numbers.select do |number|
                       end
                       
 p divisible_by_three
+
+# main difference between #map and #select is the way the new element's value is chosen. 
+# #map returns a new array with each element transformed based on the block's return value. 
+# #select returns a new array containing elements selected only if the block's return value evaluates to true
